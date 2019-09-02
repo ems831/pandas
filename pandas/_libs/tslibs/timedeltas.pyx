@@ -1209,7 +1209,7 @@ class Timedelta(_Timedelta):
 
     Parameters
     ----------
-    value : Timedelta, timedelta, np.timedelta64, string, or integer
+    value : Timedelta, timedelta, np.timedelta64, str, or int
     unit : str, optional
         Denote the unit of the input, if input is an integer. Default 'ns'.
         Possible values:
